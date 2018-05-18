@@ -5,3 +5,6 @@ node default {
     owner   => 'root',
   }
 }
+node 'master.puppter.vm' {
+  include role::master_server
+}
